@@ -5,7 +5,7 @@ it('should multiply 2 numbers and return product 50', () => {
   assert.strictEqual(multiply('5', '10'), '50');
 });
 
-it.only('should multiply 2 numbers and return product 100000000', () => {
+it('should multiply 2 numbers and return product 100000000', () => {
   assert.strictEqual(multiply('10000', '10000'), '100000000');
 });
 
